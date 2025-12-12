@@ -15,7 +15,7 @@
 
 <script lang="js" setup>
     import fetchCat from './fetchCat2.vue';
-    import {nextTick, onMounted, ref} from "vue"
+    import {nextTick,  ref} from "vue"
     import fetchCatCopy from './fetchCat2Copy.vue';
 // import { linkEmits } from 'element-plus';
     const list=ref([])
